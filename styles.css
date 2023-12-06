@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(36, 53, 149);
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#home {
+  padding: 20px;
+}
+
+.banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(36, 53, 149);
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+#party-themes,
+#gallery,
+#contact {
+  margin-top: 20px;
+}
+
+.party-theme {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.theme-item {
+  flex: 1 1 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.theme-item img {
+  width: 100%;
+  height: auto;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  flex: 1 1 5%;
+  margin: 3px;
+  width: 10%;
+  height: auto;
+}
+
+footer {
+  background-color: rgb(36, 53, 149) 13, 255);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
